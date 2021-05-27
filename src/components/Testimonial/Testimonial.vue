@@ -1,6 +1,10 @@
 <template>
   <div class="card col-lg-4 col-md-6">
-    <img :src="imageUrl" :alt="name" class="authorImage" />
+    <img
+      :src="require(`../../assets/${imageUrl}`)"
+      :alt="name"
+      class="authorImage"
+    />
     <blockquote class="testimony my-5">
       <em>"{{ testimonial }}"</em>
     </blockquote>

@@ -44,8 +44,8 @@
         <div class="card-item">
           <img
             class="img-fluid"
-            src="https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/blueprint-designing-diagram.webp"
-            alt="blueprint-designing-diagram.webp"
+            src="../../assets/blueprint-designing-diagram.jpg"
+            alt="blueprint-designing-diagram.jpg"
           />
           <div class="panel-content panel-content2">
             <h2>Ask a Tradie</h2>

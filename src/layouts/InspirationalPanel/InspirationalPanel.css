@@ -14,12 +14,12 @@
 }
 
 .title::after {
-  content: url(https://hiretrades2.s3.amazonaws.com/htweb-assets/sb.png) !important;
+  content: url(../../assets/sb.png) !important;
 }
 
 .card-item:first-child .img-col {
   padding-left: 0;
-  background-image: url("https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/accounting-balance-banking.webp");
+  background-image: url("../../assets/accounting-balance-banking.jpg");
   background-size: cover;
   height: 180px;
   background-position-y: center;
@@ -27,14 +27,14 @@
 
 .card-item:nth-child(2) .img-col {
   padding-left: 0;
-  background-image: url("https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/organise.webp");
+  background-image: url("../../assets/organise.jpg");
   height: 180px;
   background-position-y: center;
 }
 
 .card-item:nth-child(3) .img-col {
   padding-left: 0;
-  background-image: url("https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/blueprint-designing-diagram.webp");
+  background-image: url("../../assets/blueprint-designing-diagram.jpg");
   height: 180px;
   background-position-y: center;
   background-repeat: no-repeat;

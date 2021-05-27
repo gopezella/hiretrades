@@ -8,17 +8,17 @@
       <Testimonial
         name="Jodie, NSW"
         testimonial="You make life really easy for last minute people like me. I'm always time challenged and not wanting to spend the time chasing Tradies. Two minutes to post a job. Right price, right quality, right timing. No stress whatsoever. Thanks HIREtrades."
-        imageUrl="https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/jodie.webp"
+        imageUrl="jodie.png"
       />
       <Testimonial
         name="Tony, WA"
         testimonial="This has to be the best way to go. Goodbye to searching the internet for hours or fumbling through business directories. HIREtrades do it all for me and it only take a couple of minutes to post the job. Great work guys "
-        imageUrl="https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/kenvacation.webp"
+        imageUrl="kenvacation.png"
       />
       <Testimonial
         name="Keith, NSW"
         testimonial="I can refurbish my entire kitchen sourcing the trades from HIREtrades. Plumbers, electricians, cabinet-makers, tilers, floor coverings and painters – it is so convenient. Saves me time and money. I get all the Quotes for free and the app is really easy to use. You can count on my repeat business."
-        imageUrl="https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/joseph-sydney.webp"
+        imageUrl="joseph-sydney.png"
       />
     </div>
   </section>
@@ -34,5 +34,4 @@ export default {
   },
 };
 </script>
-
-Testimonial<style scoped src="./TestimonialsSection.css"></style>
+<style scoped src="./TestimonialsSection.css"></style>

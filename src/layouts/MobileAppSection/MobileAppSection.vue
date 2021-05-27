@@ -29,7 +29,7 @@
               <img
                 alt="IOS app download HIREtrades"
                 class="download-link-image"
-                src="https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/ios-app-download.webp"
+                src="../../assets/ios-app-download.png"
               />
             </a>
 
@@ -41,15 +41,12 @@
               <img
                 alt="Android app download HIREtrades"
                 class="download-link-image"
-                src="https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/android-app-download.webp"
+                src="../../assets/android-app-download.png"
               />
             </a>
           </div>
         </div>
-        <img
-          src="https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/mockup-iphone-thin.webp"
-          alt="HIREtrades App"
-        />
+        <img src="../../assets/mockup-iphone-thin.png" alt="HIREtrades App" />
       </div>
     </div>
   </section>
