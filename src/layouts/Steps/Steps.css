@@ -1,0 +1,53 @@
+#steps {
+  padding: 75px 0;
+  max-width: 1140px;
+}
+
+.title {
+  text-align: center !important;
+  margin-bottom: 40px;
+}
+.title h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 4rem;
+  color: #475f7b;
+}
+
+.title::after {
+  content: url(https://hiretrades2.s3.amazonaws.com/htweb-assets/sb.png) !important;
+}
+
+.number {
+  color: #7367f0 !important;
+  font-size: 7rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.step h3 {
+  font-size: 2.4rem;
+  color: #475f7b;
+}
+
+.step p {
+  color: #666;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 7rem;
+  }
+  .step h3 {
+    font-size: 5rem;
+  }
+
+  .step p {
+    font-size: 3.5rem;
+  }
+
+  .step-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}

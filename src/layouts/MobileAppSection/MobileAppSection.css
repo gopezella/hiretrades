@@ -1,0 +1,42 @@
+.content-container {
+  display: flex;
+  align-items: center;
+  height: 530px;
+  max-width: 1140px;
+}
+
+.background-container {
+  background-color: rgb(231, 235, 237);
+}
+
+.section-header {
+  margin: 1rem 0;
+  font-size: 4rem;
+  color: #475f7b;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.app-feature {
+  color: #475f7b;
+  font-size: 2.25rem;
+  padding: 0.5rem 0;
+}
+
+.icon {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  color: #828e99;
+}
+
+.download-link-image {
+  width: 220px;
+  margin-right: 1.75rem;
+}

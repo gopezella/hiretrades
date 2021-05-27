@@ -1,0 +1,172 @@
+.color-primary {
+  color: #7367f0;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #dfe3e7;
+  position: fixed;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 9;
+}
+
+.fa-bars {
+  font-size: 16px;
+}
+
+#navSupportedContent {
+  height: 4rem;
+}
+
+.navbar-brand img:last-child {
+  padding-top: 10px;
+  padding-left: 12px;
+}
+.nav-item {
+  padding-right: 20px;
+}
+.nav-link {
+  font-weight: 600;
+  color: #666 !important;
+  padding: 15px 5px;
+  border: 2px solid transparent;
+  font-size: 1.8rem;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #7367f0;
+  color: #7367f0 !important;
+}
+
+.navbar-collapse .navbar-nav:first-child {
+  margin-left: 20px;
+}
+.navbar-collapse .navbar-nav:last-child {
+  padding-right: 15px;
+}
+
+.navbar-collapse .navbar-nav:last-child .nav-item:first-child {
+  padding-right: 0;
+}
+
+.register-business {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 0;
+}
+
+.register-business .nav-link {
+  font-weight: 400;
+  color: #7367f0 !important;
+  padding: 8px 25px !important;
+  border: 1px solid #7367f0;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.register-business:hover .nav-link {
+  background-color: #7367f0;
+  color: #fff !important;
+}
+
+.rb-mob {
+  display: none;
+}
+
+/* Trades Dropdown Menu Styles */
+
+.dropdown-menu {
+  padding: 10px 15px;
+  width: 75vw;
+  box-shadow: -7px 8px 16px 0 rgb(55 70 95 / 20%);
+  border: 1px solid #dfe3e7;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.dropdown-menu h5 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.dropdown-menu::before {
+  border-top: 1px solid #dfe3e7;
+  border-left: 1px solid #dfe3e7;
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 1.2rem;
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  background: #fff;
+  -webkit-transform: rotate(45deg) translate(-7px);
+  transform: rotate(45deg) translate(-7px);
+  z-index: 10;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dropdown-menu ul {
+  list-style: unset;
+}
+
+.dropdown-menu li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.dropdown-menu li a:hover {
+  color: #7367f0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .register-business {
+    display: none;
+  }
+  .rb-mob {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .navbar-collapse .navbar-nav:first-child {
+    margin-left: unset;
+    margin-bottom: unset !important;
+  }
+
+  .nav-item {
+    margin-top: 10spx;
+  }
+
+  .nav-link {
+    font-size: 3.5rem;
+    padding-left: 10px 5px;
+  }
+
+  .navbar-collapse {
+    padding: 10px 10px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: unset;
+  }
+  .navbar-brand {
+    padding: 15px;
+  }
+
+  .fa-bars {
+    padding-right: 15px;
+  }
+}

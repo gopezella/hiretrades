@@ -1,0 +1,114 @@
+#inspirational-panel {
+  padding: 75px 0;
+}
+
+.title {
+  text-align: center !important;
+  margin-bottom: 40px;
+}
+.title h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 4rem;
+  color: #475f7b;
+}
+
+.title::after {
+  content: url(https://hiretrades2.s3.amazonaws.com/htweb-assets/sb.png) !important;
+}
+
+.card-item:first-child .img-col {
+  padding-left: 0;
+  background-image: url("https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/accounting-balance-banking.webp");
+  background-size: cover;
+  height: 180px;
+  background-position-y: center;
+}
+
+.card-item:nth-child(2) .img-col {
+  padding-left: 0;
+  background-image: url("https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/organise.webp");
+  height: 180px;
+  background-position-y: center;
+}
+
+.card-item:nth-child(3) .img-col {
+  padding-left: 0;
+  background-image: url("https://hiretrades2.s3.amazonaws.com/htweb-assets/homepage/blueprint-designing-diagram.webp");
+  height: 180px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+.card-item:nth-child(3) {
+  display: none !important;
+}
+
+.card-item {
+  background-color: #fff;
+  border: 0 solid #dfe3e7;
+  border-radius: 0.267rem;
+  box-shadow: -8px 12px 18px 0 rgb(25 42 70 / 13%);
+}
+
+.panel-content {
+  margin-left: 20px;
+}
+
+.panel-content h2 {
+  font-weight: 400;
+  line-height: 1.2;
+  color: #475f7b;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+
+.panel-content p {
+  color: #666;
+}
+
+.panel-content a {
+  color: #7367f0 !important;
+  text-decoration: none;
+}
+.col {
+  padding: 0 15px;
+}
+
+.panel-content2 {
+  margin-left: 0 !important;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .card-item:nth-child(3) {
+    display: flex !important;
+  }
+
+  .col:last-child {
+    display: none;
+  }
+
+  .panel-content {
+    padding: 10px 0;
+  }
+
+  .panel-content h2 {
+    font-size: 3.5rem;
+  }
+
+  .panel-content p {
+    color: #666;
+    font-size: 2.5rem;
+  }
+
+  .panel-content a {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 7rem;
+  }
+}

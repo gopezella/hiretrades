@@ -1,0 +1,70 @@
+#landing-section {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-weight: 600;
+  color: #475f7b;
+}
+
+.text-left {
+  text-align: left;
+}
+
+label {
+  color: #475f7b;
+  font-weight: 600 !important;
+}
+
+.landing-form {
+  margin-top: 40px;
+}
+
+.landing-form input {
+  height: 6.5rem;
+  padding: 5px 40px;
+  font-size: 2rem;
+}
+
+.input-icon {
+  top: 2px;
+  z-index: 4 !important;
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  right: auto;
+}
+
+.input-icon i {
+  position: relative;
+  top: -57px !important;
+  left: 6px;
+  font-size: 13px;
+}
+
+.landing-btn {
+  border: 0 solid transparent;
+  background-color: #ff5b5c !important;
+  box-shadow: 0 2px 4px 0 rgba(255, 91, 92, 0.5) !important;
+  color: #fff;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.landing-btn:hover {
+  background-color: #ff7575 !important;
+  color: #fff;
+  box-shadow: 0 4px 12px 0 rgba(255, 91, 92, 0.6) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .input-icon i {
+    top: -27px !important;
+  }
+}
